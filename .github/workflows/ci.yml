@@ -25,7 +25,7 @@ jobs:
         run: npm run test
 
   style:
-    name: Test formatting
+    name: Style
     runs-on: ubuntu-latest
 
     steps:
