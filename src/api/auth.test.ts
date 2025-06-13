@@ -15,10 +15,10 @@ export function getAPIKey(headers: IncomingHttpHeaders): string | null {
   return splitAuth[1];
 }
 
-// const person = {
-//   isActive: true,
-//   age: 32,
-// };
+const person = {
+  isActive: false,
+  age: 32,
+};
 
 describe("person", () => {
   test("person is defined", () => {
