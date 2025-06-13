@@ -24,6 +24,10 @@ jobs:
       - name: Run tests
         run: npm run test
 
-      style:
-      - name: Test formatting
-        run: npm run format:check
+  style:
+    - name: Test formatting
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Check formatting
+          run: npm run format:check
