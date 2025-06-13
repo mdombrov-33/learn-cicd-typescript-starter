@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  tests:
+  Tests:
     name: Tests
     runs-on: ubuntu-latest
 
@@ -24,7 +24,7 @@ jobs:
       - name: Run tests
         run: npm run test
 
-  style:
+  Style:
     name: Test formatting
     runs-on: ubuntu-latest
 
