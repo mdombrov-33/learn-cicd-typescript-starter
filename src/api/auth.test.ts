@@ -16,7 +16,7 @@ export function getAPIKey(headers: IncomingHttpHeaders): string | null {
 }
 
 const person = {
-  isActive: true,
+  isActive: false,
   age: 32,
 };
 
