@@ -16,7 +16,7 @@ export function getAPIKey(headers: IncomingHttpHeaders): string | null {
 }
 
 const person = {
-  isActive: false,
+  isActive: true,
   age: 32,
 };
 
@@ -26,6 +26,6 @@ describe("person", () => {
   });
 
   test("is active", () => {
-    expect(person.isActive).toBeTruthy();
+    expect(person.isActive).toBeFalsy();
   });
 });
